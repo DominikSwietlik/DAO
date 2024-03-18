@@ -1,0 +1,13 @@
+
+\
+java:S1118":Add a private constructor to hide the implicit public one.(Ìáúÿÿÿÿ8°›å1
+R
+java:S1068"5Remove this unused "CREATE_USER_QUERY" private field.(òİŠ×8¡°›å1
+U
+java:S1068"3Remove this unused "READ_USER_QUERY" private field.(à×éöûÿÿÿÿ8¡°›å1
+R
+java:S1068"5Remove this unused "UPDATE_USER_QUERY" private field.(õ»§ª8¡°›å1
+R
+java:S1068"5Remove this unused "DELETE_USER_QUERY" private field.(¨·ÃÒ8¡°›å1
+S
+java:S1068"7Remove this unused "FIND_ALL_USER_QUERY" private field.(âË’&8¡°›å1
