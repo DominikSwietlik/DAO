@@ -1,5 +1,6 @@
 package pl.coderslab.entity;
 
+
 public class User {
     private int id;
 
@@ -38,4 +39,8 @@ public class User {
     private String userName;
     private String email;
     private String password;
+    @Override
+    public String toString() {
+        return  "id = " + id + " usermane = " + userName+ " email = " + email+ " password = " + password;
+    }
 }

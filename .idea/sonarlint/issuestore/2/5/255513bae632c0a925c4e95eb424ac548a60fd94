@@ -1,13 +1,22 @@
 
-\
-java:S1118":Add a private constructor to hide the implicit public one.(Ìáúÿÿÿÿ8°›å1
-R
-java:S1068"5Remove this unused "CREATE_USER_QUERY" private field.(òİŠ×8¡°›å1
-U
-java:S1068"3Remove this unused "READ_USER_QUERY" private field.(à×éöûÿÿÿÿ8¡°›å1
-R
-java:S1068"5Remove this unused "UPDATE_USER_QUERY" private field.(õ»§ª8¡°›å1
-R
-java:S1068"5Remove this unused "DELETE_USER_QUERY" private field.(¨·ÃÒ8¡°›å1
-S
-java:S1068"7Remove this unused "FIND_ALL_USER_QUERY" private field.(âË’&8¡°›å1
+g	java:S112^"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Î¡“Öè1
+g	java:S112k"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Î¡“Öè1
+f
+java:S11928"IDefine a constant instead of duplicating this literal "password" 3 times.(ç½—8Ï¡“Öè1
+b
+java:S12268"EIntroduce a new variable instead of reusing the parameter "password".(ç½—8Ô¡“Öè1
+l
+java:S2095e"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ØæÔÉ8õ¡“Öè1
+k
+java:S2095@"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‰õ³98õ¡“Öè1
+q
+java:S2095v"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¾Ô‘êÿÿÿÿÿ8õ¡“Öè1
+k
+java:S2095&"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(“¬ñ;8õ¡“Öè1
+l
+java:S2095U"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¿ƒ»÷8õ¡“Öè1
+d
+java:S3252&"HUse static access with "java.sql.Statement" for "RETURN_GENERATED_KEYS".(“¬ñ;8ü¡“Öè1
+e
+java:S3252U"HUse static access with "java.sql.Statement" for "RETURN_GENERATED_KEYS".(¿ƒ»÷8„¢“Öè1
+F	java:S108‚")Either remove or fill this block of code.(É®£8¢“Öè1
