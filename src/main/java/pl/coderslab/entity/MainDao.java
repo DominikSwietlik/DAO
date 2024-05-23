@@ -1,5 +1,7 @@
 package pl.coderslab.entity;
 
+import org.mindrot.jbcrypt.BCrypt;
+
 public class MainDao {
     
     public static void addMainDao(String username, String email, String password)
@@ -43,7 +45,13 @@ public class MainDao {
     public static void main(String[] args) {
 
         //addMainDao("nowy2", "c@gg.com", "czekaj");
-        findAll();
+        //findAll();
         //readMainDao(11);
+        //addMainDao("admin", "admin@coderslab.com", "123456");
+        //addMainDao("admin2", "admin2@coderslab.com", "123456");
+        findAll();
+
+
+
     }
 }

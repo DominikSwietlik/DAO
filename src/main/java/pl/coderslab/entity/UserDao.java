@@ -1,5 +1,6 @@
 package pl.coderslab.entity;
 
+import org.mindrot.jbcrypt.BCrypt;
 import pl.coderslab.DbUtil;
 
 import java.sql.*;
@@ -53,7 +54,7 @@ public class UserDao {
     }
 
     private String hashPassword(String password) {
-        password = "password";
+        password = BCrypt.hashpw(password, BCrypt.gensalt());
 
         return password;
     }
@@ -69,7 +70,7 @@ public class UserDao {
                 user.setId(resultSet.getInt("id"));
                 user.setUserName(resultSet.getString("username"));
                 user.setPassword(hashPassword(resultSet.getString("password")));
-                //BCrypt.hashpw(, BCrypt.gensalt())
+                //
                 user.setEmail(resultSet.getString("email"));
                 return user;
             }
